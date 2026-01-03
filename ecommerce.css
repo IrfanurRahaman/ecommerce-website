@@ -1,0 +1,11 @@
+.tower, .fardin{
+    height: 400px;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.dokan{
+    display: flex;
+    gap: 40px;
+    
+}
