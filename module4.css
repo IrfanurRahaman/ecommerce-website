@@ -1,0 +1,23 @@
+.container{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(150, 143, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
+}
+
+.logo{
+    margin-left: 40px;
+    color: white;
+}
+
+
+

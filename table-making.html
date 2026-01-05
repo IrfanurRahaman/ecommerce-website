@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table making</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            background-color: rgb(13, 255, 0);
+        }
+        td ,th{
+          border: 1px solid black;
+          padding: 15px 50px;
+        }
+
+        tfoot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+
+            <caption>Students details</caption>
+            <thead>
+               <th>serial</th>
+               <th>name</th>
+               <th>id</th>
+               <th>class</th>
+            </thead>
+                
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>farhan</td>
+                    <td>27</td>
+                    <td>12</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>fardin</td>
+                    <td>06</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>03</td>
+                    <td>faimoon</td>
+                    <td>20</td>
+                    <td>8</td>
+
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="4">ID with name </td>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
